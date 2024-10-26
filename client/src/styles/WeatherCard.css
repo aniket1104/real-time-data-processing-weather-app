@@ -1,0 +1,54 @@
+.weather-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .weather-card h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .weather-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .weather-card .temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff5722; /* Accent color for temperature */
+  }
+  
+  .weather-card .condition {
+    font-size: 1.2rem;
+    color: #888; /* Color for weather condition text */
+  }
+  
+  .weather-card .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .weather-card {
+      max-width: 100%; /* Full width on smaller screens */
+      margin: 10px auto; /* Center align on small screens */
+    }
+  }
+  

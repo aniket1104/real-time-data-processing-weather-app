@@ -1,0 +1,9 @@
+/* styles.css */
+.alert-warning {
+    background-color: #f59e0b;
+    color: white;
+}
+.alert-info {
+    background-color: #3b82f6;
+    color: white;
+}
